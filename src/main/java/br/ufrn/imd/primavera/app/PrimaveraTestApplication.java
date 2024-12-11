@@ -6,7 +6,8 @@ import br.ufrn.imd.primavera.configuration.PrimaveraApplication;
 @PrimaveraApplication
 public class PrimaveraTestApplication {
 	
-	public static void main(String[] args) {	
+	public static void main(String[] args) {
+		
 		PrimaveraRunner runner = new PrimaveraRunner()
 				.configureRunner(PrimaveraTestApplication.class)
 				.configureArgs(TestConfig.class, args)
